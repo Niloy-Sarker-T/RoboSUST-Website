@@ -39,6 +39,61 @@ a {
 
 
 
+.news-slider .background-holder {
+  padding: 0;
+  height: 50vh; /* Adjust the height as needed */
+  background-size: cover; /* Ensure the image fits within the container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: block;
+}
+
+
+
+
+
+ /*Alumni */
+
+
+/* General styles for images */
+.image-container {
+  text-align: center;
+  padding-left: 100px;
+}
+
+/* Styling images to be round */
+.alumni {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px; /* You can adjust the size as needed */
+  height: 150px; /* You can adjust the size as needed */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Styling for the dimensions text     kaje lge nai*/
+.image-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Add padding and a border around the alumni badge */
+.alumni-badge {
+  border: 5px solid #ddd; /* You can customize the border color */
+  padding: 5px; /* Adjust the padding as needed */
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
 
 a:hover, a:focus {
   color: #010102;
