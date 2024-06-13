@@ -176,6 +176,11 @@ h7 {font-size: 10px; /* Adjust the font size for h7 on smaller screens */}
   font-size: 12pt; /* Adjust the font size for smaller text on mobile devices */
 }
 
+/*front part */
+
+
+
+
 
 
 
@@ -185,13 +190,77 @@ h7 {font-size: 10px; /* Adjust the font size for h7 on smaller screens */}
 
 
 
+/*front*/
+.background-holder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay-freya {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust overlay color and opacity as needed */
+}
+
+@media (max-width: 767.98px) {
+  .pt-11 {
+      padding-top: 3rem !important; /* Adjust padding for smaller screens */
+  }
+  .pb-6 {
+      padding-bottom: 2rem !important; /* Adjust padding for smaller screens */
+  }
+ /*front*/ 
+}
 
 
 
 
 
+/*navbar*/
+/* Further reduce navbar padding */
+.navbar {
+  padding: 0.25rem 0.5rem; /* Reduce the padding to make the navbar smaller */
+}
 
+.navbar-brand img {
+  width: 40px; /* Further reduce the logo size */
+  margin-left: 10px; 
+}
 
+.navbar-nav .nav-link {
+  padding: 0.25rem 0.5rem; /* Further reduce padding for nav links */
+  font-size: 0.75rem; /* Further reduce font size */
+}
+
+.navbar-toggler {
+  padding: 0.15rem 0.3rem; /* Further reduce padding for the toggler button */
+}
+
+.navbar-nav .dropdown-menu {
+  font-size: 0.75rem; /* Further reduce font size for dropdown items */
+}
+
+/* Optional: Further adjust the social icons */
+.navbar-nav .fa {
+  font-size: 0.875rem; /* Further adjust the font size of social icons */
+  margin-right: 15px;
+}
+
+/* Optional: Further adjust the overall container padding */
+.znav-container .container {
+  padding: 0; /* Remove container padding */
+}
+
+.navbar-nav .text-center {
+  padding-left: 10px; /* Add padding to move all social icons slightly to the left */
+}
+/*navbar*/
 
 
 
