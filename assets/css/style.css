@@ -45,11 +45,11 @@ a {
 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 300px){
 
   .mb-4 {
-    font-size: 1rem; /* Adjust font size for better readability on smaller screens */
-    line-height: 1.5; /* Adjust line height for better readability */
+    font-size: 0.5rem; /* Adjust font size for better readability on smaller screens */
+    line-height: 1; /* Adjust line height for better readability */
     padding: 0 1rem; /* Add padding to prevent text from touching screen edges */
     text-align: justify; /* Optionally, justify text for a cleaner look */
   }
@@ -243,7 +243,7 @@ h7 {font-size: 10px; /* Adjust the font size for h7 on smaller screens */}
 
 
 /*1st slider*/
-@media (max-width: 768px) {
+@media (max-width: 300px) {
   .background-holder.overlay.overlay-freya {
       background-image: url(assets/images/robosust_cover_mobile.jpeg); 
        background-position: center center; 
