@@ -291,6 +291,7 @@ h7 {font-size: 10px; /* Adjust the font size for h7 on smaller screens */}
 
 /* Optional: Further adjust the overall container padding */
 .znav-container .container {
+  margin: 0 .5rem;
   padding: 0; /* Remove container padding */
 }
 
@@ -324,7 +325,7 @@ h7 {font-size: 10px; /* Adjust the font size for h7 on smaller screens */}
 /* General styles for images */
 .image-container {
   text-align: center;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 
 /* Styling images to be round */
@@ -635,6 +636,7 @@ a:hover, a:focus {
   top: 0;
   left: 0;
   right: 0;
+  margin: 0 .5rem;
   position: relative;
   z-index: 1030;
 }
@@ -651,6 +653,7 @@ a:hover, a:focus {
 }
 
 .znav-container .navbar {
+  padding: .5rem !important;
   font-family: "Futura PT", sans-serif;
   font-weight: 600;
   font-size: 0.75019rem;
@@ -723,7 +726,7 @@ a:hover, a:focus {
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 61.99em) {
   .znav-container .dropdown, .znav-container .megamenu {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -1776,6 +1779,7 @@ span.typed-cursor {
 ///////////////////////////////////*/
 html {
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -1785,6 +1789,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #1f1f1f;
   font-size: 1rem;
+  overflow-x: hidden !important;
 }
 
 h1, .h1 {
