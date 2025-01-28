@@ -8334,3 +8334,66 @@ html.safari .znav-freya .dropdown {
   -webkit-animation: loading 0.8s infinite;
   animation: loading 0.8s infinite;
 }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .background-holder {
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            padding: 0 15px;
+        }
+        .row {
+            padding: 0 15px;
+        }
+        .col-lg {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .h2 {
+            font-size: 1.5rem;
+        }
+        .p {
+            font-size: 1rem;
+        }
+        .btn {
+            font-size: 0.8rem;
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .background-holder {
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            padding: 0 10px;
+        }
+        .row {
+            padding: 0 10px;
+        }
+        .col-lg {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .h2 {
+            font-size: 1.2rem;
+        }
+        .p {
+            font-size: 0.8rem;
+        }
+        .btn {
+            font-size: 0.7rem;
+            padding: 0.4rem 0.8rem;
+        }
+    }
