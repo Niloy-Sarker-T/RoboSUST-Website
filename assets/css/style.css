@@ -24,16 +24,51 @@ a {
 .image-text {
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent dark overlay */
+  left: 30%;
+  transform: translateX(-20%);
+  background-color: rgba(0, 0, 0, 0.857); /* Semi-transparent dark overlay */
   color: #ffffff; /* White color */
-  font-family: 'Futura Pt', sans-serif;
+  font-family:  sans-serif;
   font-size: 10pt;
-  padding: 8px 16px;
+  padding: 2px 2px;
   border-radius: 4px;
   max-width: 100%; /* Limiting the width to ensure text starts from the left with padding */
-  text-align: left; /* Aligning text to start from the left */
+  text-align: center; /* Aligning text to start from the left */
+}
+@media (max-width: 768px) {
+  .image-text {
+    font-size: 10pt; /* Slightly smaller font for small screens */
+    padding: 8px 12px;
+  }
+}
+
+.ongoing-description {
+  color: #232323; /* Dark text */
+  font-family: "Futura PT", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  max-width: 100%;
+  background: rgba(255, 255, 255, 0.9); /* Light semi-transparent background for readability */
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* For mobile screens: Overlay text on the image */
+@media (max-width: 768px) {
+  .ongoing-description {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7); /* Darker background for better contrast */
+    color: #ffffff; /* White text */
+    font-size: 12px;
+    padding: 8px;
+    width: 90%; /* Keep it contained within the image */
+  }
 }
 
 
@@ -125,7 +160,7 @@ h7 {font-size: 10px; /* Adjust the font size for h7 on smaller screens */}
   object-fit: cover; /* Ensure images cover the area without distortion */
 }
 .row.custom-row .col-lg-6 p.custom-text, .row.custom-row .col-12 p.custom-text {
-  font-size: 10pt; /* Adjust the font size for better readability on smaller screens */
+  font-size: 3pt; /* Adjust the font size for better readability on smaller screens */
 }
 
 /* 3 prjects */
@@ -165,7 +200,8 @@ h7 {font-size: 10px; /* Adjust the font size for h7 on smaller screens */}
   margin-right: 10px; /* Add some space between columns */
 }
 .row.event-row .col-lg-6:last-child {
-  margin-right: 0; /* Remove the margin for the last item */
+  margin-right: 0; 
+  margin-bottom: 20px;/* Remove the margin for the last item */
 }
 .row.event-row .col-lg-6 img {
   width: 100%;
